@@ -2,6 +2,9 @@
 
 Upload a selfie and paste any e-commerce product URL. The app uses Browserbase Stagehand to extract the product image, then GPT-Image-2 to composite the product onto the person.
 
+<img width="1333" height="1247" alt="Screenshot 2026-04-28 at 19 41 16" src="https://github.com/user-attachments/assets/8d2c08e3-7252-4287-a19d-3d8a85c1cc0f" />
+
+
 ## How it works
 
 1. The user uploads a selfie and pastes a product page URL.
