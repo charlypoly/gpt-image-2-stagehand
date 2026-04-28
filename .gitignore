@@ -1,0 +1,85 @@
+# spell-checker:ignore envrc, sentryclirc
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+ngrok.yml
+tilt_config.json
+.DS_Store
+node_modules
+.turbo
+*.log
+.next
+dist
+dist-ssr
+*.local
+
+.hermit
+
+# Hermit-managed corepack symlinks
+bin/pnpm
+bin/pnpx
+bin/yarn
+bin/yarnpkg
+
+.env
+.env.local
+.env.dev
+.env.prod
+
+.cache
+.temp
+
+# for fish shell users who want hermit to automatically activate
+.envrc
+
+# testing
+coverage/
+# don't ignore chrome devtools files
+!apps/core/public/**/coverage/
+playwright-report/
+apps/core/test-results
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Sentry Config File
+.sentryclirc
+
+# Home dir made by Chrome
+**/home/
+
+.hermit/node/cache/
+!.hermit/**/dist/
+!.hermit/**/node_modules/
+
+.hermit/go/bin
+
+# Terraform
+.terraform*
+
+# python
+.venv
+__pycache__
+
+# dependency cruiser
+dependency-graph.svg
+
+# debug and reproduction scripts
+scripts/debug-reproduction/
+debug-reproduction/
+
+# AI/Claude workflow files (keep local, don't commit to GitHub)
+apps/admin-dashboard/app/beacon/
+apps/admin-dashboard/app/api/accord/
+apps/admin-dashboard/app/api/claude-spot/
+.claude/
